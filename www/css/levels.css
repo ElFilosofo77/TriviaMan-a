@@ -1,0 +1,57 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: linear-gradient(blue,aquamarine);
+
+}
+
+/* .contenedor-nivel {
+
+} */
+
+.titulo {
+
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.imagen {
+
+  border-radius: 25px;
+
+}
+
+/* .contenedor-respuestas {
+
+
+} */
+
+.contenedor-respuestas p {
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.contenedor-respuestas .respuestas {
+
+    font-size: 30px;
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding: 10px;
+
+}
