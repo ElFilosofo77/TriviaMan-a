@@ -8,16 +8,40 @@
 
 body {
 
-    background: linear-gradient(blue,aquamarine);
+    background: linear-gradient(to right,#190482,#7752FE);
     font-family: "Concert One", sans-serif;
     font-weight: 400;
     font-style: normal;
 
 }
 
-/* .contenedor-nivel {
+.cont {
 
-} */
+    height: 100px;
+    background-color: #190482;
+
+}
+
+.cont button {
+
+    background: none;
+    border: none;
+    margin: 25px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.cont button i {
+
+    color: white;
+    font-size: 50px;
+
+}
+
+.cont button i:active {
+
+    color: #7752FE;
+
+}
 
 .titulo {
 
@@ -25,6 +49,14 @@ body {
     font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
+    margin: 40px 0px;
+
+}
+
+.imagen-contenedor {
+
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -34,27 +66,38 @@ body {
 
 }
 
-/* .contenedor-respuestas {
-
-
-} */
-
-.contenedor-respuestas p {
+p {
 
     color: white;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 20px 0px;
 
 }
+
+.contenedor-respuestas {
+
+    display: flex;
+    justify-content: center;
+
+}
+
 
 .contenedor-respuestas .respuestas {
 
     font-size: 30px;
     border: none;
-    background-color: #f7f7f7;
+    background: linear-gradient(to right,#190482,#7752FE);
+    color: white;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     border-radius: 25px;
     padding: 10px;
+    margin: 0px 5px 0px 10px;
+    cursor: pointer;
+    box-shadow: 5px 10px black;
 
 }
